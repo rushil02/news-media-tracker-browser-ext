@@ -1,0 +1,29 @@
+{
+    "name": "News Media Tracker Extension",
+    "version": "1.0",
+    "description": "Track News Credibility",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "permissions": ["storage", "contextMenus", "activeTab", "tabs", "identity"],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/icon_16.png",
+            "32": "images/icon_32.png",
+            "128": "images/icon_128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon_16.png",
+        "32": "images/icon_32.png",
+        "128": "images/icon_128.png"
+    },
+    "homepage_url": "https://concordapp.in",
+    "oauth2": {
+        "client_id": "1098587066907-9el46mlhccce4q3vnhs4go0oco0beljl.apps.googleusercontent.com",
+        "scopes": [""]
+    }
+}
